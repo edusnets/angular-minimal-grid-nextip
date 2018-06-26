@@ -1,0 +1,43 @@
+{
+  "name": "angular-minimal-grid",
+  "authors": [
+    "Eduardo Martins <edusnets@gmail.com>"
+  ],
+  "description": "Implementation of data grid using twitter bootstrap for angularjs applications.",
+  "main": [
+    "js/minimal-grid.js",
+    "css/minimal-grid.css"
+  ],
+  "keywords": [
+    "data",
+    "grid",
+    "angular",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/edusnets/angular-minimal-grid",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.x.x",
+    "angular": "^1.x.x"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.6.5"
+  },
+  "version": "1.2.6",
+  "_release": "1.2.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.6",
+    "commit": "896cffe043d0194805a4ea61338e38f235b6b2a0"
+  },
+  "_source": "https://github.com/edusnets/angular-minimal-grid.git",
+  "_target": "^1.2.6",
+  "_originalSource": "angular-minimal-grid"
+}

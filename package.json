@@ -1,0 +1,35 @@
+{
+  "name": "angular-minimal-grid",
+  "version": "1.2.6",
+  "description": "Implementation of data grid using twitter bootstrap for angularjs applications.",
+  "scripts": {
+    "test": "karma start karma.conf.js --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edusnets/angular-minimal-grid.git"
+  },
+  "keywords": [
+    "data",
+    "grid",
+    "angular",
+    "bootstrap"
+  ],
+  "author": "Eduardo Martins <edusnets@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edusnets/angular-minimal-grid/issues"
+  },
+  "homepage": "https://github.com/edusnets/angular-minimal-grid#readme",
+  "dependencies": {
+    "bootstrap": "^3.x.x",
+    "angular": "^1.x.x"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.3"
+  }
+}
