@@ -63,7 +63,7 @@
           value = $filter('date')(value * 1000, columns.formatDate, '+0000')
         }
         if (!!columns.onRender){
-          return $sce.trustAsHtml( columns.onRender(value).toString() )
+          return $sce.trustAsHtml( (""+columns.onRender(value)).toString() )
         }else{
           return value
         }
